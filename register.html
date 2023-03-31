@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Register Form</title>
+</head>
+<body>
+    <div class="mainform">
+            <h1>Registration Form</h1>
+            <label for="name">User Name: </label>
+            <input type="text" id="rname">
+            <label for="password">Password: </label>
+            <input type="text" id="rpassword">
+            <label for="text">Name: </label>
+            <input type="text" id="rnickname">
+            <label for="text">Email address: </label>
+            <input type="text" id="remail">
+            <button onclick= "registerFunc()">Register</button>
+            <div id="prompt"></div>
+        <a href="index.html">Go to Login</a>
+    </div>
+    <div class="secondform">
+            <h1>Login Form</h1>
+            <label for="name">Name: </label>
+            <input type="text" id="fname">
+            <label for="password">Password: </label>
+            <input type="text" id="fpassword">
+            <button onclick= "loginFunc()">Log In</button>
+            <div id="prompt">Try to Login First.</div>
+        </div>
+    <script src="index.js"></script>
+</body>
+</html>

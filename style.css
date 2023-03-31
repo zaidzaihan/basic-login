@@ -1,0 +1,6 @@
+.mainform {
+display: flex;
+text-align: center;
+flex-direction: column;
+width: 100px
+}
